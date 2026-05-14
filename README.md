@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Futuristic AI Company Website
 
@@ -9,3 +10,7 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# Skyrocket-Infosys
+ 2026 SkyRocket Infosys — Shaping The AI Powered Digital Future
+>>>>>>> e68407521fa351a27809df6967f8e2ca8da1a00c
