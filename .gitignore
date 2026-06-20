@@ -26,3 +26,10 @@ dist-ssr
 # skyrocket-infosys Next.js project
 skyrocket-infosys/.next
 skyrocket-infosys/out
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
