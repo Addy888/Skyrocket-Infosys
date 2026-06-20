@@ -6,8 +6,9 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview",
-    "analyze": "vite build --mode analyze"
+    "preview": "npm run build && wrangler dev",
+    "analyze": "vite build --mode analyze",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@radix-ui/react-slot": "1.1.2",
@@ -20,10 +21,12 @@
     "tailwind-merge": "3.2.0"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.42.1",
     "@tailwindcss/vite": "4.1.12",
     "@vitejs/plugin-react": "4.7.0",
     "tailwindcss": "4.1.12",
-    "vite": "^6.4.2"
+    "vite": "^6.4.2",
+    "wrangler": "^4.103.0"
   },
   "peerDependencies": {
     "react": "18.3.1",
