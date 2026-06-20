@@ -1,21 +1,26 @@
 import { motion } from "motion/react";
+import { memo, useMemo } from "react";
 
-export function ParticleField() {
-  const particles = Array.from({ length: 100 }, (_, i) => ({
-    id: i,
-    x: Math.random() * 100,
-    y: Math.random() * 100,
-    size: Math.random() * 3 + 1,
-    duration: Math.random() * 20 + 10,
-    delay: Math.random() * 5,
-  }));
+export const ParticleField = memo(() => {
+  // Reduce particle count for better performance
+  const particles = useMemo(() => 
+    Array.from({ length: 50 }, (_, i) => ({ // Reduced from 100
+      id: i,
+      x: Math.random() * 100,
+      y: Math.random() * 100,
+      size: Math.random() * 2 + 1, // Slightly smaller
+      duration: Math.random() * 20 + 10,
+      delay: Math.random() * 5,
+    })),
+    []
+  );
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
       {particles.map((particle) => (
         <motion.div
           key={particle.id}
-          className="absolute rounded-full bg-cyan-400/40"
+          className="absolute rounded-full bg-cyan-400/30 will-change-transform"
           style={{
             left: `${particle.x}%`,
             top: `${particle.y}%`,
@@ -23,10 +28,10 @@ export function ParticleField() {
             height: `${particle.size}px`,
           }}
           animate={{
-            y: [0, -100, 0],
-            x: [0, Math.random() * 50 - 25, 0],
-            opacity: [0.2, 0.8, 0.2],
-            scale: [1, 1.5, 1],
+            y: [0, -80, 0], // Reduced movement range
+            x: [0, Math.random() * 40 - 20, 0],
+            opacity: [0.1, 0.6, 0.1], // Reduced opacity
+            scale: [1, 1.3, 1],
           }}
           transition={{
             duration: particle.duration,
@@ -38,4 +43,6 @@ export function ParticleField() {
       ))}
     </div>
   );
-}
+});
+
+ParticleField.displayName = "ParticleField";

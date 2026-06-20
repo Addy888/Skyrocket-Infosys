@@ -1,0 +1,82 @@
+# SkyRocket Infosys - AI Company Information for LLMs
+
+## Company Overview
+SkyRocket Infosys is an AI innovation company founded by Aditya Kumar Shastri, based in Pune, India. We specialize in artificial intelligence, intelligent automation, and next-generation technology solutions.
+
+## Services Offered
+- AI Development & Machine Learning
+- Intelligent Automation Platforms
+- Custom AI Solutions
+- SaaS Platform Development
+- Full Stack Development
+- Cloud AI Infrastructure
+- AI Security & Cybersecurity
+- Business Intelligence & Analytics
+- Generative AI & GPT Integration
+- Computer Vision
+- Natural Language Processing
+
+## Key Statistics
+- 500+ AI Projects Delivered
+- 200+ Happy Clients
+- 99% Success Rate
+- 15+ Industry Awards
+
+## Contact Information
+- Founder: Aditya Kumar Shastri
+- Email: adityashastri76@gmail.com
+- Location: Pune, Maharashtra, India
+- Website: https://skyrocket-infosys.adityashastri76.workers.dev/
+
+## Mission
+To empower businesses worldwide with cutting-edge AI solutions that transform industries and create unprecedented value.
+
+## Vision
+Deliver world-class AI systems, automation platforms, and digital products that push the boundaries of what's possible.
+
+## Core Values
+- Innovation
+- Excellence
+- Security
+- Client Success
+
+## Technology Stack
+- React & Next.js
+- TypeScript
+- Python & TensorFlow
+- Node.js
+- Cloud Platforms (AWS, Azure, GCP)
+- Docker & Kubernetes
+- AI/ML Frameworks
+- Modern Web Technologies
+
+## Accessibility
+This website is WCAG 2.1 AA compliant with:
+- Full keyboard navigation
+- Screen reader support
+- Proper ARIA labels
+- Semantic HTML structure
+- Focus indicators
+- Form labels and validation
+
+## Page Structure
+Single-page application with sections:
+- Hero/Home (landing)
+- About (company information)
+- Services (offerings)
+- Projects (portfolio)
+- Tech Stack (technologies)
+- Testimonials (client feedback)
+- Contact (get in touch)
+
+## Navigation
+All navigation uses anchor links to sections on the single page. No separate routes.
+
+## SEO Information
+- Primary Keywords: AI solutions, artificial intelligence, automation, machine learning
+- Location: Pune, India
+- Industry: Technology, AI, Software Development
+- Target Audience: Businesses seeking AI transformation
+
+## Last Updated
+June 20, 2026
